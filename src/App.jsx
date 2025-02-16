@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+{/*const API_URL = 'http://127.0.0.1:5000/alumnos';*/}
+const API_URL = 'https://backensinbbdd.vercel.app/alumnos';
 
-const API_URL = 'http://127.0.0.1:5000/alumnos';
 
 function App() {
   const [alumnos, setAlumnos] = useState([]);
